@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import img1 from "../assets/foodimg1.jpg";
+// import img1 from "../assets/foodimg1.jpg";
 import img3 from "../assets/foodimg3.jpg";
 import img5 from "../assets/foodimg5.jpg";
 import img6 from "../assets/foodimg6.jpg";
 import img2 from "../assets/foodimg2.jpg";
 import img4 from "../assets/foodimg4.jpg";
 
-const BannerImage = [img3, img2, img4, img5, img1, img6];
+const BannerImage = [img3, img2, img4, img5, img6];
 
 const Banner = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
